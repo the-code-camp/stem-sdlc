@@ -92,7 +92,7 @@ In this challenge you will execute Spark Batch Job for Data Transformation in th
 7. The dataset you'll be using has people from different age groups across countries. The spark transformation job will filter for people with age less than 40. To run the spark job you will clone the code with this command:
 
 ```sh
-git clone https://github.com/ps-interactive/lab_aws_transform-data-using-apache-spark-on-amazon-EMR.git.
+git clone https://github.com/ps-interactive/lab_aws_transform-data-using-apache-spark-on-amazon-EMR.git
 ```
 8. Change directory:
 
