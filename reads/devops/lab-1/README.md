@@ -28,7 +28,7 @@ This section contains step-3 of the above mentioned lab because the instructions
 
 11. Expand **Advanced Details**.
 
-  - **IAM instance profile** role for instance as `CodeDeployDemoEC2`
+  - Select **IAM instance profile** role for instance as `CodeDeployDemoEC2`
   -  Paste in this user data script under **User data**.
 
   ```sh
