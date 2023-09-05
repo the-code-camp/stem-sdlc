@@ -6,7 +6,7 @@ This section contains step-3 of the above mentioned lab because the instructions
 
 1. At the top of the page in the search bar, type in and then click on **EC2**.
 
-**Note**: Before continuing, make sure your AWS region in the top-right corner of the screen is set to **US West Oregon**.
+    **Note**: Before continuing, make sure your AWS region in the top-right corner of the screen is set to **US West Oregon**.
 
 2. In the left-hand **EC2 Dashboard** navigation menu, click Instances.
 
@@ -28,8 +28,8 @@ This section contains step-3 of the above mentioned lab because the instructions
 
 11. Expand **Advanced Details**.
 
-  1. **IAM instance profile** role for instance as `CodeDeployDemoEC2`
-  2.  Paste in this user data script under **User data**.
+  - **IAM instance profile** role for instance as `CodeDeployDemoEC2`
+  -  Paste in this user data script under **User data**.
 
   ```sh
   #!/bin/bash
@@ -55,11 +55,11 @@ This section contains step-3 of the above mentioned lab because the instructions
 
 14. Click on the **View all instances** button, then wait for the **Status check** column fields to each display **2/2 checks passed**.
 
-Note: It will take about three to five minutes for the fields to change from – or **Initializing**. You can click the refresh button to get an update periodically.
+    Note: It will take about three to five minutes for the fields to change from – or **Initializing**. You can click the refresh button to get an update periodically.
 
 15. Select one instance and copy its **Auto-assigned IP address**, then open a new browser tab to that address.
 
-Note: You need to use `http`, not https. For example, if the IP was 127.0.0.1 go to http://127.0.0.1
+    Note: You need to use `http`, not https. For example, if the IP was 127.0.0.1 go to http://127.0.0.1
 
 16. Do the same thing with the other instance.
 
