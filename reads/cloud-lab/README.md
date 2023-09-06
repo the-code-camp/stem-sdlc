@@ -23,4 +23,4 @@ sudo wget https://www.free-css.com/assets/files/free-css-templates/download/page
 sudo unzip edgecut.zip
 ```
 
-- Open browser **http://{public-ip-or-public-dns}/edgecut**, to view the installed website.
+- Open browser **http://{public-ip-or-public-dns}/edgecut-html**, to view the installed website.
